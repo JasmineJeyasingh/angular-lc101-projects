@@ -1,0 +1,9 @@
+.chores h3 {
+  color: red;
+  font-size: 30px;
+  text-decoration: underline;
+}
+.chores li {
+  color: blueviolet;
+  font-style: italic;
+}

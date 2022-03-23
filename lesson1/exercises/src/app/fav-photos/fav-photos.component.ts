@@ -1,19 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'fav-photos',
-  templateUrl: './fav-photos.component.html',
-  styleUrls: ['./fav-photos.component.css']
+  selector: "fav-photos",
+  templateUrl: "./fav-photos.component.html",
+  styleUrls: ["./fav-photos.component.css"],
 })
 export class FavPhotosComponent implements OnInit {
-  photosTitle = 'Photo/Image Section Title Here';
-  image1 = 'https://www.launchcode.org/assets/icons/target-00c7a0bc7776901e3c5cdc4c36c465f19e41a249bc7267a595f0bfa14ab944b7.png';
-  image2 = '';
-  image3 = '';
+  photosTitle = "Photo/Image Section Title Here";
+  image1 =
+    "https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg";
+  image2 =
+    "https://www.clipartmax.com/png/small/470-4707396_javascript-icon-html-css-js-icons.png";
+  image3 =
+    "https://alexeyza.com/assets/article_images/2015-09-28-getting-started-with-node-dot-js/nodejs.png";
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

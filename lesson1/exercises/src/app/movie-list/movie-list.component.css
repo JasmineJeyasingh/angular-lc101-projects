@@ -1,0 +1,11 @@
+.movies {
+  color: red;
+}
+.movies li {
+  color: green;
+  font-size: 20px;
+}
+.movies h3 {
+  text-align: center;
+  font-size: 30px;
+}
